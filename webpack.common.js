@@ -68,7 +68,8 @@ module.exports = {
     }),
     new ESLintPlugin({
       extensions: ['.tsx', '.ts', '.js'],
-      exclude: 'node_modules'
+      exclude: 'node_modules',
+      context: 'src'
     })
   ]
 };
